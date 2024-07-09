@@ -15,26 +15,26 @@ function Cart() {
     <>
       {/* <div> */}
       <Navbar />
-      <div className="grid grid-cols-2">
-        <div className="border border-solid border-1 border-[#f1e6e6] rounded-md mt-6 ml-[5rem] w-[45rem]">
+      <div className="md:grid grid-cols-2">
+        <div className="border border-solid border-1 border-[#f1e6e6] rounded-md mt-6 ml-1 md:ml-[5rem] md:w-[45rem]">
           <div>
             <h2 className="mt-3 ml-9 font-normal text-2xl">Shopping Cart</h2>
           </div>
           <div>
             <div className="grid grid-cols-3">
               <div>
-                <img src={set} className="ml-[2rem] mt-[2rem]" alt="" />
+                <img src={set} className="md:ml-[2rem] mt-[2rem]" alt="" />
               </div>
               <div className="relative right-[6rem] top-10">
-                <h2 className="font-semibold">iMac Pro 2024 Gaming Monitor</h2>
-                <h3 className="font-medium mt-1">
+                <h2 className="md:font-semibold ml-[3rem] md:ml-0 w-[10rem] md:w-[18rem]">iMac Pro 2024 Gaming Monitor</h2>
+                <h3 className="font-medium mt-1 ml-[3rem] md:ml-0 w-[6rem]">
                   Color: <span className="text-[#7e7a7a]">White</span>
                 </h3>
-                <p className="mt-1">$120</p>
+                <p className="mt-1 ml-[3rem] md:ml-0">$120</p>
               </div>
               <div>
-                <RiDeleteBin6Line className="text-red-400 w-5 h-6 ml-[13rem] mt-11" />
-                <button className="flex ml-[8rem] mt-3 gap-4 border border-solid border-[0.87px] border-[#E4E7E9] px-2 py-1 rounded-md">
+                <RiDeleteBin6Line className="text-red-400 w-5 h-6 ml-[6rem] md:ml-[13rem] mt-11" />
+                <button className="flex ml-4 md:ml-[8rem] mt-3 gap-4 border border-solid border-[0.87px] border-[#E4E7E9] px-2 py-1 rounded-md">
                   <RiSubtractFill className="mt-1" />
                   <span>03</span>
                   <IoIosAdd className="mt-1" />
@@ -43,18 +43,18 @@ function Cart() {
             </div>
             <div className="grid grid-cols-3">
               <div>
-                <img src={set} className="ml-[2rem] mt-[2rem]" alt="" />
+                <img src={set} className="md:ml-[2rem] mt-[2rem]" alt="" />
               </div>
               <div className="relative right-[6rem] top-10">
-                <h2 className="font-semibold">iMac Pro 2024 Gaming Monitor</h2>
-                <h3 className="font-medium mt-1">
+                <h2 className=" md:font-semibold ml-[3rem] md:ml-0 w-[10rem] md:w-[18rem]">iMac Pro 2024 Gaming Monitor</h2>
+                <h3 className="font-medium mt-1 ml-[3rem] md:ml-0 w-[6rem]">
                   Color: <span className="text-[#7e7a7a]">White</span>
                 </h3>
-                <p className="mt-1">$120</p>
+                <p className="mt-1 ml-[3rem] md:ml-0">$120</p>
               </div>
               <div>
-                <RiDeleteBin6Line className="text-red-400 w-5 h-6 ml-[13rem] mt-11" />
-                <button className="flex ml-[8rem] mt-3 gap-4 border border-solid border-[0.87px] border-[#E4E7E9] px-2 py-1 rounded-md">
+                <RiDeleteBin6Line className="text-red-400 w-5 h-6 ml-[6rem] md:ml-[13rem] mt-11" />
+                <button className="flex ml-4 md:ml-[8rem] mt-3 gap-4 border border-solid border-[0.87px] border-[#E4E7E9] px-2 py-1 rounded-md">
                   <RiSubtractFill className="mt-1" />
                   <span>03</span>
                   <IoIosAdd className="mt-1" />
@@ -69,7 +69,7 @@ function Cart() {
             </div>
           </Link>
         </div>
-        <div className="border border-solid border-1 border-[#f1e6e6] rounded-md mt-6 ml-[9rem] mr-[5rem]">
+        <div className="border border-solid border-1 border-[#f1e6e6] rounded-md mt-6 ml-1 md:ml-[9rem] mr-1 md:mr-[5rem]">
           <div>
             <h2 className="ml-[2rem] font-semibold text-2xl mt-3">
               Cart Totals
@@ -83,7 +83,7 @@ function Cart() {
                 <h3 className="mt-2">Discount</h3>
                 <h3 className="mt-2">Tax</h3>
               </div>
-              <div className="ml-[10rem] mt-3 text-xl mb-4">
+              <div className=" ml-[7rem] md:ml-[10rem] mt-3 text-xl mb-4">
                 <p>$1400</p>
                 <p className="mt-2 ml-4">Free</p>
                 <p className="mt-2 ml-10">0</p>
@@ -95,7 +95,7 @@ function Cart() {
             </div>
             <div className="grid grid-cols-2 ml-[2rem] mt-4 text-xl">
               <h2 className="font-medium">Total</h2>
-              <p className="font-semibold ml-[9rem]">$1440</p>
+              <p className="font-semibold ml-[6rem] md:ml-[9rem]">$1440</p>
             </div>
           </div>
           <Link to="/pay">
@@ -107,6 +107,7 @@ function Cart() {
             </div>
           </Link>
         </div>
+        
       </div>
 
       <div className="bottom-0">

@@ -4,7 +4,7 @@ function Footer() {
     <div>
       <div>
         {/* <div className="grid grid-cols-5 relative top-[9rem] "> */}
-        <div className="flex justify-between mx-48 mb-8 relative top-[9rem] ">
+        <div className="flex md:justify-between md:mx-48 mb-8 relative top-[9rem] ">
           <div>
             <img src={logo} alt="" />
             <p className="text-[#D9DBE1] text-sm">
@@ -12,7 +12,7 @@ function Footer() {
             </p>
           </div>
 
-          <div className="flex justify-between px-12 gap-32">
+          <div className="flex justify-between px-12 gap-3 md:gap-32">
             <div className="">
               <h2 className="text-[#1DA756] font-semibold text-2xl">Product</h2>
               <ul className="relative top-6 ">
@@ -73,7 +73,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="">
+            <div className="hidden md:block">
               <h2 className="text-[#1DA756] font-semibold text-2xl">Product</h2>
               <ul className="relative top-6">
                 <li>

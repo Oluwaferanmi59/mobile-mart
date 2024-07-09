@@ -10,8 +10,8 @@ function Pay() {
     <>
       <div>
         <Navbar />
-        <div className="grid grid-cols-2 gap-9">
-          <div className="border border-solid border-1 border-[#f1e6e6] rounded-md mt-6 ml-[10rem] mb-[8rem]">
+        <div className="md:grid grid-cols-2 gap-9">
+          <div className="hidden md:block border border-solid border-1 border-[#f1e6e6] rounded-md mt-6 ml-[10rem] mb-[8rem]">
             <div>
               <h2 className="font-bold text-xl ml-[2rem] mt-5">
                 Order Summary
@@ -85,7 +85,7 @@ function Pay() {
               </Link>
             </div>
           </div>
-          <div className="border border-solid border-1 border-[#f1e6e6] rounded-lg mt-6 ml-[1rem] mr-[15rem] w-[37rem]">
+          <div className="border border-solid border-1 border-[#f1e6e6] rounded-lg mt-6 ml-[0rem] md:mr-[15rem] w-[37rem]">
             <div className="ml-[2rem] mt-7">
               <div>
                 <h2 className="font-bold text-2xl">Pay with Card</h2>
@@ -103,7 +103,7 @@ function Pay() {
                     type="text"
                     id="username"
                     name="username"
-                    className="border bg-gray-200 rounded-md px-[11rem] py-6 mt-4 "
+                    className="border bg-gray-200 rounded-md px-[5rem] md:px-[11rem] py-6 mt-4 "
                   />
                 </div>
                 <div className="mt-4">
@@ -118,11 +118,11 @@ function Pay() {
                     type="text"
                     id="username"
                     name="username"
-                    className="border bg-gray-200 rounded-md px-[11rem] py-6 mt-4 "
+                    className="border bg-gray-200 rounded-md px-[5rem] md:px-[11rem] py-6 mt-4 "
                   />
                 </div>
               </div>
-              <div className="grid grid-cols-2 mt-4">
+              <div className="md:grid grid-cols-2 mt-4">
                 <div>
                   <label
                     for="username"
@@ -135,7 +135,7 @@ function Pay() {
                     type="text"
                     id="username"
                     name="username"
-                    className="border bg-gray-200 rounded-md px-7 py-6 mt-4 "
+                    className="border bg-gray-200 rounded-md w-fit md:w-auto px-0 md:px-7 py-6 mt-4 "
                   />
                 </div>
                 <div>
@@ -150,7 +150,7 @@ function Pay() {
                     type="text"
                     id="username"
                     name="username"
-                    className="border bg-gray-200 rounded-md px-9 py-6 mt-4 "
+                    className="border bg-gray-200 rounded-md w-fit md:w-auto md:ml-0 ml-[0rem] px-0 md:px-9 mr-[5rem] md:mr-0 py-6 mt-4 "
                   />
                 </div>
               </div>
@@ -159,14 +159,14 @@ function Pay() {
                   type="text"
                   id="username"
                   name="username"
-                  className="border bg-gray-200 rounded-md px-[11rem] py-8 mt-8 "
+                  className="border bg-gray-200 rounded-md px-[5rem] md:px-[11rem] py-6 mt-4 "
                 />
               </div>
-              <div className="bg-[#1DA756] text-white text-center mt-7 mr-[3rem] rounded-md mb-5">
+              <div className="bg-[#1DA756] text-white text-center mt-7 mr-[13rem] md:mr-[1rem] rounded-md mb-5">
                 <button className="mt-3 font-semibold uppercase text-xl">
                   Pay
                 </button>
-                <FaArrowRight className="relative left-[19rem] bottom-5 w-9 " />
+                <FaArrowRight className="relative left-[12rem] md:left-[19rem] bottom-5 w-9 " />
               </div>
             </div>
           </div>

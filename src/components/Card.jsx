@@ -17,7 +17,7 @@ import watch2 from "../assets/images/smart watch 2.png"
 function Card(){
     return(
         <div>
-            <div className=" grid grid-cols-4 ml-[5rem] mt-10">
+            <div className=" md:grid grid-cols-4 ml-[5rem] mt-10">
                 <div className="border border-solid border-2 border-[#1DA756] w-[17rem] rounded-md">
                     <div className="ml-4">
                         <img src={laptop} className="" alt="" />
@@ -92,7 +92,7 @@ function Card(){
                 </div>
             </div>
 
-            <div className=" grid grid-cols-4 ml-[5rem] mt-10">
+            <div className=" md:grid grid-cols-4 ml-[5rem] mt-10">
                 <div className="border border-solid border-2 border-[#1DA756] w-[17rem] rounded-md">
                     <div className="ml-4">
                         <img src={imac1} className="" alt="" />
@@ -167,7 +167,7 @@ function Card(){
                 </div>
             </div>
 
-            <div className=" grid grid-cols-4 ml-[5rem] mt-10">
+            <div className=" md:grid grid-cols-4 ml-[5rem] mt-10">
                 <div className="border border-solid border-2 border-[#1DA756] w-[17rem] rounded-md">
                     <div className="ml-4">
                         <img src={headphone} className="" alt="" />
@@ -242,7 +242,7 @@ function Card(){
                 </div>
             </div>
 
-            <div className=" grid grid-cols-4 ml-[5rem] mt-10">
+            <div className=" md:grid grid-cols-4 ml-[5rem] mt-10">
                 <div className="border border-solid border-2 border-[#1DA756] w-[17rem] rounded-md">
                     <div className="ml-4">
                         <img src={watch2} className="" alt="" />
