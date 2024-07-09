@@ -117,6 +117,11 @@ function Cart() {
         </div>
         </div>
 
+        <div className="md:flex gap-[80rem] mt-8">
+            <h2 className="ml-[7rem] font-bold text-xl">Recently viewed</h2>
+            <p className="hidden md:block text-xl">View all</p>
+        </div>
+
         <div className=" md:grid grid-cols-4 ml-[5rem] mt-10">
                 <div className="border border-solid border-2 border-[#1DA756] w-[17rem] rounded-md">
                     <div className="ml-4">
@@ -190,6 +195,11 @@ function Cart() {
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div className="md:flex gap-[78rem] mt-8">
+                <h2 className="ml-[7rem] font-bold text-xl">Recommended for you</h2>
+                <p className="hidden md:block text-xl">View all</p>
             </div>
 
             <div className=" md:grid grid-cols-4 ml-[5rem] mt-10">

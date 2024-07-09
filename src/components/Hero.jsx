@@ -3,7 +3,7 @@ import iphone from "../assets/images/Right Column.png";
 function Hero() {
   return (
     <div>
-      <div className=" md:grid md:grid-cols-2 bg-gradient-to-b from-[#FFFFFF] to-[#ecf8f0] flex">
+      <div className=" md:grid md:grid-cols-2  bg-gradient-to-b from-[#FFFFFF] to-[#ecf8f0] flex">
         {/* large screen */}
         <div className="hidden md:block mt-[8rem] ml-[5rem] ">
           <div className="">

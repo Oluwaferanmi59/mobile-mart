@@ -7,13 +7,13 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 function Navbar() {
   return (
-    <div className="w-full">
+    <div className="fixed w-full">
       <div className="">
         <Link to="/">
-        <img src={logo} className="mt-4 ml-[5rem]" alt="" />
+        <img src={logo} className=" fixed mt-0 ml-[5rem]" alt="" />
         </Link>
         <div className="hidden md:block flex">
-          <ul className="md:flex gap-8 relative bottom-[2rem] left-[30rem] md:gap-[5rem] font-medium">
+          <ul className="md:flex gap-8 relative bottom-[2rem] top-5 left-[30rem] md:gap-[5rem] font-medium">
             <Link to="/">
             <li>
               <a href="">Home</a>
